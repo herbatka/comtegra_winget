@@ -1,0 +1,14 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: Comtegra.FortiClient
+PackageVersion: 7.0.0
+Installers:
+- InstallerUrl: https://dl.dropboxusercontent.com/s/dmto16oed35ie1n/FortiClientVPNCOMTEGRA.msi
+  InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: wix
+  InstallerSha256: E33F13041D63C33618097DBF4E549E626770C5CDA5A8EECD81B887A71B736F6B
+  ProductCode: '{32123CA3-C24D-4A99-9347-70049B8E4C23}'
+ManifestType: installer
+ManifestVersion: 1.4.0
